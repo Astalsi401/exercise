@@ -2,12 +2,12 @@ import * as stylex from "@stylexjs/stylex";
 import { StyleXVar } from "@stylexjs/stylex/lib/StyleXTypes";
 
 const DARK = "@media (prefers-color-scheme: dark)";
-const BREAKPOINTS = {
-  sm: "@media (min-width: 576px)",
-  md: "@media (min-width: 768px)",
-  lg: "@media (min-width: 992px)",
-  xl: "@media (min-width: 1200px)",
-};
+// const BREAKPOINTS = {
+//   sm: "@media (min-width: 576px)",
+//   md: "@media (min-width: 768px)",
+//   lg: "@media (min-width: 992px)",
+//   xl: "@media (min-width: 1200px)",
+// };
 
 export const colors = stylex.defineVars({
   mainBg: { default: "rgb(255, 255, 255)", [DARK]: "rgb(39, 39, 39)" },
